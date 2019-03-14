@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>post operational status</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	var sys_id = request.pathParams.sys_id,
+		op_status = parseInt(request.pathParams.op_status),
+		logSource = "IOT Center REST - Post Status",
+		status;
+
+	gs.debug("Setting status for thing " + sys_id, logSource);
+	if (op_status == "Nan" || op_status < 1 || op_status > 6) {
+		status = 400;
+		response.setBody({
+			error: "invalid state",
+			details: "valid states are 1 (operational), 2 (non operational), 3 (repair in progress), 4 (DR stand by), 5 (ready), or 6 (retired)"});
+		// remplacer la ligne précédente par un GR sur sys_choice
+	} else {
+		var grThing = new GlideRecord("x_oafb2_iot_center_things");
+		if (grThing.get(sys_id)) {
+			if(grThing.sys_class_name !== "x_oafb2_iot_center_things") {
+				grThing = new GlideRecord(grThing.sys_class_name);
+				grThing.get(sys_id);
+			}
+			gs.debug("Setting status for thing " + grThing.name, logSource);
+			grThing.setValue("operational_status", op_status);
+			if (grThing.update()) {
+				status = 200;
+			} else {
+				status = 500;
+			}			
+		} else {
+			status = 404;
+		}
+	}
+	gs.debug("Status: " + status, logSource);
+	response.setContentType('application/json');
+	response.setStatus(status);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_oafb2_iot_center/iot_center_services/thing/{sys_id}/status/{op_status}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/thing/{sys_id}/status/{op_status}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>syvon</sys_created_by>
+        <sys_created_on>2019-03-14 08:10:42</sys_created_on>
+        <sys_id>a74814f31308bf0003b4b5b12244b07a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>post operational status</sys_name>
+        <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
+        <sys_update_name>sys_ws_operation_a74814f31308bf0003b4b5b12244b07a</sys_update_name>
+        <sys_updated_by>syvon</sys_updated_by>
+        <sys_updated_on>2019-03-14 08:23:32</sys_updated_on>
+        <web_service_definition display_value="IOT Center Services">c2094cb713c4bf0003b4b5b12244b043</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

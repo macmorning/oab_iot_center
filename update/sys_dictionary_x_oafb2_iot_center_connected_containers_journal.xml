@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmdb_ci" table="x_oafb2_iot_center_things">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="journal" table="x_oafb2_iot_center_connected_containers">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
-        <audit>true</audit>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Journal</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>journal</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Journal">journal</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_oafb2_iot_center_things</name>
+        <max_length>4000</max_length>
+        <name>x_oafb2_iot_center_connected_containers</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>syvon</sys_created_by>
-        <sys_created_on>2019-03-14 06:44:14</sys_created_on>
-        <sys_id>f4844cb313c4bf0003b4b5b12244b00a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_oafb2_iot_center_things</sys_name>
+        <sys_created_on>2019-03-14 07:41:22</sys_created_on>
+        <sys_id>fd91983f13c4bf0003b4b5b12244b088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Journal</sys_name>
         <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
-        <sys_update_name>sys_dictionary_x_oafb2_iot_center_things_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_oafb2_iot_center_connected_containers_journal</sys_update_name>
         <sys_updated_by>syvon</sys_updated_by>
-        <sys_updated_on>2019-03-14 06:53:53</sys_updated_on>
+        <sys_updated_on>2019-03-14 07:41:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

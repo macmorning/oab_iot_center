@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Things" language="en" table="x_oafb2_iot_center_things">
+    <sys_documentation element="start_date" label="Start date" language="en" table="x_oafb2_iot_center_connected_containers">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>start_date</element>
             <help/>
             <hint/>
-            <label>Things</label>
+            <label>Start date</label>
             <language>en</language>
-            <name>x_oafb2_iot_center_things</name>
-            <plural>Things</plural>
+            <name>x_oafb2_iot_center_connected_containers</name>
+            <plural>Start dates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 06:44:15</sys_created_on>
-            <sys_id>0d844cb313c4bf0003b4b5b12244b014</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Things</sys_name>
+            <sys_created_on>2019-03-14 07:01:55</sys_created_on>
+            <sys_id>738884b713c4bf0003b4b5b12244b03e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start date</sys_name>
             <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
             <sys_policy/>
             <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
-            <sys_update_name>sys_documentation_x_oafb2_iot_center_things__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_oafb2_iot_center_connected_containers_start_date_en</sys_update_name>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:03:40</sys_updated_on>
+            <sys_updated_on>2019-03-14 07:01:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

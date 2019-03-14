@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="Things" max_length="40" name="x_oafb2_iot_center_things" type="collection">
+    <element audit="true" extends="cmdb_ci" label="Things" max_length="40" name="x_oafb2_iot_center_things" type="collection">
+        <element label="journal" max_length="4000" name="journal" type="journal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>

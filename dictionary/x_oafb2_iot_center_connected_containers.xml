@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_oafb2_iot_center_things" label="Connected containers" max_length="40" name="x_oafb2_iot_center_connected_containers" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Journal" max_length="4000" name="journal" type="journal"/>
+        <element attributes="ignore_filter_on_new=true,edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
