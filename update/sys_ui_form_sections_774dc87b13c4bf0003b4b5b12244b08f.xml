@@ -28,6 +28,20 @@
             <sys_updated_by>syvon</sys_updated_by>
             <sys_updated_on>2019-03-14 07:22:40</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>syvon</sys_created_by>
+            <sys_created_on>2019-03-26 06:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b0a79231390f74003b4b5b12244b020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_oafb2_iot_center_connected_lights" name="x_oafb2_iot_center_connected_lights" sys_domain="global" view="Default view">774dc87b13c4bf0003b4b5b12244b08f</sys_ui_form>
+            <sys_ui_section caption="Location" display_value="Location" name="x_oafb2_iot_center_connected_lights" sys_domain="global" view="Default view">930a79231390f74003b4b5b12244b01e</sys_ui_section>
+            <sys_updated_by>syvon</sys_updated_by>
+            <sys_updated_on>2019-03-26 06:55:00</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_oafb2_iot_center_connected_lights</name>
             <roles/>

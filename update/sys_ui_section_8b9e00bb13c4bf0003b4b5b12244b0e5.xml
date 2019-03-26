@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>41e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c82c79a31390f74003b4b5b12244b0ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c1e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>4c2c79a31390f74003b4b5b12244b0ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>name</element>
             <position>2</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>45e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>cc2c79a31390f74003b4b5b12244b0ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>serial_number</element>
             <position>3</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c5e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>402cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>category</element>
             <position>4</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>49e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c02cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,183 +74,169 @@
             <element>subcategory</element>
             <position>5</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c9e1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>442cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <position>6</position>
-            <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>4de1dc3f13c4bf0003b4b5b12244b065</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
-            <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>cde1dc3f13c4bf0003b4b5b12244b065</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c42cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_status</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>41e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>482cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>operational_status</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c1e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c82cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>support_group</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>45e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>4c2cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>supported_by</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c5e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>cc2cb9a31390f74003b4b5b12244b000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>49e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>402cb9a31390f74003b4b5b12244b001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>unverified</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>c9e1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c02cb9a31390f74003b4b5b12244b001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>4de1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>442cb9a31390f74003b4b5b12244b001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>cde1dc3f13c4bf0003b4b5b12244b066</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>c42cb9a31390f74003b4b5b12244b001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>15</position>
+            <sys_created_by>syvon</sys_created_by>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>482cb9a31390f74003b4b5b12244b001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
+            <sys_updated_by>syvon</sys_updated_by>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
             <position>16</position>
             <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>41e1dc3f13c4bf0003b4b5b12244b067</sys_id>
+            <sys_created_on>2019-03-26 07:04:03</sys_created_on>
+            <sys_id>0c2cb9a31390f74003b4b5b12244b001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
             <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
+            <sys_updated_on>2019-03-26 07:04:03</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>journal</element>
-            <position>17</position>
-            <sys_created_by>syvon</sys_created_by>
-            <sys_created_on>2019-03-14 07:42:41</sys_created_on>
-            <sys_id>49e1dc3f13c4bf0003b4b5b12244b06f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_oafb2_iot_center_connected_containers" sys_domain="global" view="Default view">8b9e00bb13c4bf0003b4b5b12244b0e5</sys_ui_section>
-            <sys_updated_by>syvon</sys_updated_by>
-            <sys_updated_on>2019-03-14 07:42:41</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

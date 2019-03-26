@@ -14,7 +14,7 @@
         <mobile_title>Things</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_oafb2_iot_center_things</name>
-        <order/>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>86844cb313c4bf0003b4b5b12244b0f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Things</sys_name>
         <sys_overrides/>
         <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
         <sys_update_name>sys_app_module_86844cb313c4bf0003b4b5b12244b0f6</sys_update_name>
         <sys_updated_by>syvon</sys_updated_by>
-        <sys_updated_on>2019-03-14 06:44:19</sys_updated_on>
+        <sys_updated_on>2019-03-26 07:06:03</sys_updated_on>
         <timeline_page/>
         <title>Things</title>
         <uncancelable>false</uncancelable>

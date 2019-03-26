@@ -19,13 +19,17 @@
 		}
 		status = 200;
 		response.setBody({
-			number: grThing.number,
-			sys_id: grThing.getUniqueValue(),
-			name: grThing.getDisplayValue("name"),
+			thing_id: grThing.getUniqueValue(),
+			thing: grThing.getDisplayValue("name"),
+			thing_class: grThing.getClassDisplayValue(),
+			number: grThing.getValue("number"),
 			install_status: grThing.getDisplayValue("install_status"),
 			operational_status: grThing.getDisplayValue("operational_status"),
-			location: grThing.getDisplayValue("location"),
-			thing_class: grThing.getClassDisplayValue()
+			marker: grThing.getDisplayValue("marker"),
+			marker_id: grThing.getValue("marker"),
+			spatial_coord_x: grThing.getDisplayValue("spatial_coord_x"),
+			spatial_coord_y: grThing.getDisplayValue("spatial_coord_y"),
+			spatial_coord_z: grThing.getDisplayValue("spatial_coord_z"),
 		});	
 	} else {
 		status = 404;
@@ -48,14 +52,14 @@
         <sys_created_by>syvon</sys_created_by>
         <sys_created_on>2019-03-14 07:20:15</sys_created_on>
         <sys_id>927904f713c4bf0003b4b5b12244b017</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>get thing</sys_name>
         <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
         <sys_update_name>sys_ws_operation_927904f713c4bf0003b4b5b12244b017</sys_update_name>
         <sys_updated_by>syvon</sys_updated_by>
-        <sys_updated_on>2019-03-14 07:35:31</sys_updated_on>
+        <sys_updated_on>2019-03-26 07:42:39</sys_updated_on>
         <web_service_definition display_value="IOT Center Services">c2094cb713c4bf0003b4b5b12244b043</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

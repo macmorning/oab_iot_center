@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_oafb2_iot_center_things" label="Connected lights" max_length="40" name="x_oafb2_iot_center_connected_lights" type="collection">
+    <element audit="true" extends="x_oafb2_iot_center_things" label="Connected lights" max_length="40" name="x_oafb2_iot_center_connected_lights" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Journal" max_length="4000" name="journal" type="journal"/>
+        <element label="Marker" max_length="32" name="marker" reference="x_oafb2_iot_center_marker" type="reference"/>
         <element attributes="ignore_filter_on_new=true,edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Spatial coord. X" max_length="40" name="spatial_coord_x" type="float"/>
+        <element label="Spatial coord. Y" max_length="40" name="spatial_coord_y" type="float"/>
+        <element label="Spatial coord. Z" max_length="40" name="spatial_coord_z" type="float"/>
     </element>
 </database>

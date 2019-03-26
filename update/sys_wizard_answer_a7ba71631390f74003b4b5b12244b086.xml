@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Marker</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Marker</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">313a302af822030059a64c78fda74a97</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>syvon</sys_created_by>
+        <sys_created_on>2019-03-26 06:58:00</sys_created_on>
+        <sys_id>a7ba71631390f74003b4b5b12244b086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marker</sys_name>
+        <sys_package display_value="IOT Center" source="x_oafb2_iot_center">208448b313c4bf0003b4b5b12244b0b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IOT Center">208448b313c4bf0003b4b5b12244b0b6</sys_scope>
+        <sys_update_name>sys_wizard_answer_a7ba71631390f74003b4b5b12244b086</sys_update_name>
+        <sys_updated_by>syvon</sys_updated_by>
+        <sys_updated_on>2019-03-26 06:58:00</sys_updated_on>
+        <table/>
+        <target_url>x_oafb2_iot_center_marker.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
